@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 50vh;
+  width: 50vw;
+  transform: translate(50%, 50%);
+  background-color: rgb(219, 238, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.box {
+  width: 70px;
+  height: 70px;
+  padding: 1em;
+  font-size: 1.5em;
+  background: #eeeeee;
+  border: 1px solid #e8e8e8;
+  transition: all 1s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.box:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+#pause{
+    border-radius: 50%;
+}
